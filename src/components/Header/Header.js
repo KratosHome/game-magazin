@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CartBlock from "../CartBlock/CartBlock";
 import "./Header.css";
 
 const Header = () => {
@@ -10,7 +11,9 @@ const Header = () => {
           Game Store
         </Link>
       </div>
-      <div className="wraper headr_cart-btn-wraper">cart</div>
+      <div className="wraper headr_cart-btn-wraper">
+        <CartBlock />
+      </div>
     </div>
   );
 };

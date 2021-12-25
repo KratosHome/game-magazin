@@ -1,0 +1,19 @@
+.btn {
+  border-radius: 15px;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn-secondory {
+  background-color: rgb(85, 88, 237);
+}
+.btn-primery {
+  background-color: rgb(85, 88, 237);
+}
+.btn-small {
+  font-size: 14px;
+}
+.btn-mediun {
+  font-size: 18px;
+}
