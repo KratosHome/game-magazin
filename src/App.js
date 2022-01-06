@@ -13,12 +13,11 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Header />} />
-        </Routes>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/app/:id" element={<GamePage />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<Header />}>
+            <Route index element={<HomePage />} />
+            <Route path="/app/:id" element={<GamePage />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
         </Routes>
       </div>
     </Provider>
