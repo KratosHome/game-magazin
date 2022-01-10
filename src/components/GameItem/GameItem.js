@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { Link, Outlet, useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { setCurrentGame } from "../../redux/game/reduse";
 import GameBuy from "../GameBuy/GameBuy";
 import GameCover from "../GameCover/GameCover";

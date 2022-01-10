@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import { Provider } from "react-redux";
 import { store } from "./redux";
 import GamePage from "./pages/GamePage/GamePage";
+import CartPage from "./pages/CartPage/CartPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="/app/:id" element={<GamePage />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/order/" element={<CartPage />} />
           </Route>
         </Routes>
       </div>

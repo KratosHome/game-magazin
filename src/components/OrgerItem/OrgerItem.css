@@ -1,0 +1,20 @@
+.oredrItem {
+  display: flex;
+  margin-bottom: 30px;
+}
+.oredrItemCover {
+  width: 200px;
+  margin-right: 30px;
+}
+.orderItemTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+.oredrItemPrise {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.oredrItemDelitIcon {
+}
